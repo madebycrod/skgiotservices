@@ -14,5 +14,5 @@ $txt = "You have received and email from " .$firstname." ".$lastname.".\n\n".$me
 
 
 mail($email, $subject, $txt, $headers);
-header("Location: index.phpmailsend");
+header("Location: index.php?mailsend");
 }

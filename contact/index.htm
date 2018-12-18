@@ -66,10 +66,10 @@
                         <div class="card-body" >
 
                             <form class="contact-form" action="contact.php" method="POST" style="border:solid;background-color:whitesmoke; opacity: .8; padding:50px;">
-                            <p class="card-text" ><input type="text" name="firstname" placeholder="first name" required="yes" style="background-color:transparent; border-radius: 5px;"></p>
-                            <p class="card-text"> <input type="text" name="lastname" placeholder="last name" required="yes"></p>
-                            <p class="card-text"> <input type="text" name="subject" placeholder="subject" required="no"></p>
-                            <p class="card-text"><input type="email" name="email" placeholder="email address" required="yes"></p>
+                            <p class="card-text" ><input type="text" name="firstname" placeholder="first name" required="yes"  autocomplete="on" tabindex="1" style="background-color:transparent; border-radius: 5px;"></p>
+                            <p class="card-text"> <input type="text" name="lastname" placeholder="last name" required="yes"autocomplete="on" tabindex="2"></p>
+                            <p class="card-text"> <input type="text" name="subject" placeholder="subject" required="no" tabindex="3"></p>
+                            <p class="card-text"><input type="email" name="email" placeholder="email address" required="yes" autocomplete="on" tabindex="4"></p>
                             <p class="card-text"> <textarea name="message" placeholder="Enter your message here"></textarea></p>
                             <button type="submit" name="submit">Submit Your Message</button>
                         </form>
